@@ -40,4 +40,5 @@ class ClientController extends Controller
 
         return redirect()->back()->with('success', 'Successfully registered for the conference.');
     }
+
 }

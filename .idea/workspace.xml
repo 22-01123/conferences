@@ -4,7 +4,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edb615e2-d4bd-4443-842b-6f5afb00ae27" name="Changes" comment="" />
+    <list default="true" id="edb615e2-d4bd-4443-842b-6f5afb00ae27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/client/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/employee/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/80d441b9-6a1d-4164-bef8-609a577ea4d6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/80d441b9-6a1d-4164-bef8-609a577ea4d6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminConferenceController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminConferenceController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/database.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/hot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/conferences.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/conferences.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/14a153c9a30e68e3c122a07cec6abc54.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/19d74c9327c50c783486f4d87614f617.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/2e68adf13a76310b7659ff0a83ade9b7.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/42347dcbf5eee4ca6d130039ac586744.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/53ae4c73d5556a9bc5f46885ad354d63.php" beforeDir="false" afterPath="$PROJECT_DIR$/storage/framework/views/53ae4c73d5556a9bc5f46885ad354d63.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/68ed713221b80e01042ec733f3d97990.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/a46bf5300514f1001fe9b64ea3c9f27e.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c6ea4dd00d3649953ddae6d8ed615f74.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/c9fff04356f566e05c046de5613e09f9.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/dbdd058232a41b0aa74f6937b33cf578.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/dcd9f0c25a09782005205699c7265dc2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/e30c4bf8afecf9f86f0642840b92b78d.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/views/ed8367d8739e4a62f5e2a879fbdb9726.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +55,7 @@
     <setting file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
@@ -133,33 +167,35 @@
       <path value="$PROJECT_DIR$/vendor/laravel/breeze" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2n3qCKQ2k9yLPQvKSD9iFJRB9c8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/xampp/htdocs/conferences",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "C:/Users/Daniel/AppData/Roaming/JetBrains/PhpStorm2024.2/node/versions/20.18.0/node",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;PHPUnit.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/controllers-initialized&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/conferences&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;C:/Users/Daniel/AppData/Roaming/JetBrains/PhpStorm2024.2/node/versions/20.18.0/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;,
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
@@ -182,7 +218,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1728211978654</updated>
-      <workItem from="1728211979643" duration="8292000" />
+      <workItem from="1728211979643" duration="11012000" />
+      <workItem from="1728241745258" duration="474000" />
+      <workItem from="1728242730791" duration="1626000" />
+      <workItem from="1729427442596" duration="11449000" />
     </task>
     <servers />
   </component>

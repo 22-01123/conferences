@@ -8,12 +8,12 @@ use Illuminate\Http\Request;
 
 class AdminConferenceController extends Controller
 {
-    public function index()
+    public function index(): \Illuminate\View\View
     {
-        // Fetch all conferences
         $conferences = Conference::all();
         return view('admin.conferences.index', compact('conferences'));
     }
+
 
     public function create()
     {
